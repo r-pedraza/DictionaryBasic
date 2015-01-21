@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  RPLDIcTableViewController.h
 //  RPLDicccionarioBasico
 //
 //  Created by Raul Pedraza on 19/1/15.
@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RPLDicModel.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface RPLDIcTableViewController : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
 
+@property (strong,nonatomic) RPLDicModel *model;
 
 
 @end
-
